@@ -30,7 +30,7 @@ public class InsuranceQuoteTestsTest
         driver.Quit();
     }
     [Test]
-    public void insuranceQuoteAge15andDriExp2andAcci1InvalidAge()
+    public void insuranceQuote_Age15andDriExp2andAcci1_InvalidAge()
     {
         driver.Navigate().GoToUrl("http://localhost/prog8170a04/index.html");
         driver.Manage().Window.Size = new System.Drawing.Size(1050, 708);
